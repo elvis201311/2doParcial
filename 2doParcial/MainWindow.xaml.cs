@@ -27,18 +27,10 @@ namespace _2doParcial
             InitializeComponent();
         }
 
-
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
             rProyectos rProyectos = new rProyectos();
             rProyectos.Show();
-        }
-
-       
-
-        private void MenuItem_Click_3(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
@@ -48,4 +40,3 @@ namespace _2doParcial
         }
     }
 }
-    

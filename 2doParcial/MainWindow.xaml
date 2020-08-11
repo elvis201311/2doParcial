@@ -8,32 +8,23 @@
          Title="MENU PRINCIPAL" Height="400" Width="400" WindowStartupLocation="CenterScreen" >
     <Grid>
         <StackPanel>
-
-            <Menu Height="20" VerticalAlignment="Top" Background="White">
-                <MenuItem Header="Registro" Click="MenuItem_Click_1">
-                    <MenuItem Header="Registro Proyecto" Click="MenuItem_Click_1"/>
-              
+            <!--——————————————————————————————————————————————[ MENU ITEMS ]——————————————————————————————————————————————-->
+            <Menu Height="24" FontSize="15">
+                <MenuItem Header="Registros" Click="MenuItem_Click_1">
+                    <MenuItem x:Name="rArticulosMenuItem"  Header="Registrar Partida"/>
                 </MenuItem>
 
                 <MenuItem Header="Consultas" Click="MenuItem_Click">
-                    <MenuItem Header="Consultar Tareas" Click="MenuItem_Click_2"/>
-
-                </MenuItem>
-
-                <MenuItem Header="Ayuda" Click="MenuItem_Click_3">
-                    <Menu/>
+                    <MenuItem x:Name="cJugadasMenuItem"  Header="Consultar Partida"/>
                 </MenuItem>
             </Menu>
         </StackPanel>
-        
+        <!--——————————————————————————————————————————————[ MENU PRINCIPAL ]——————————————————————————————————————————————-->
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-            
+
             <Label Content="Menu Principal" FontWeight="Bold" Height="50" FontSize="36" HorizontalAlignment="Center" />
-            
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,0"/>
 
-           
-
-          
         </StackPanel>
     </Grid>
 </Window>
