@@ -5,8 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2doParcial"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+         Title="MENU PRINCIPAL" Height="400" Width="400" WindowStartupLocation="CenterScreen" >
     <Grid>
+        <StackPanel>
 
+            <Menu Height="20" VerticalAlignment="Top" Background="White">
+                <MenuItem Header="Registro" Click="MenuItem_Click_1">
+                    <MenuItem Header="Registro Proyecto" Click="MenuItem_Click_1"/>
+              
+                </MenuItem>
+
+                <MenuItem Header="Consultas" Click="MenuItem_Click">
+                    <MenuItem Header="Consultar Tareas" Click="MenuItem_Click_2"/>
+
+                </MenuItem>
+
+                <MenuItem Header="Ayuda" Click="MenuItem_Click_3">
+                    <Menu/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+        
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            
+            <Label Content="Menu Principal" FontWeight="Bold" Height="50" FontSize="36" HorizontalAlignment="Center" />
+            
+
+           
+
+          
+        </StackPanel>
     </Grid>
 </Window>
